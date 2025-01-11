@@ -27,7 +27,7 @@ class NumberInfoFragment: Fragment(R.layout.fragment_number_info) {
         binding = FragmentNumberInfoBinding.bind(view)
 
         binding?.run {
-            val number = number_id?.let { NumberRepository.getNumber(it) }
+            val number = number_id?.let { NumberRepository.getNumber(requireContext(), it) }
             if (number != null) {
                 image.setImageResource(number.picture)
             }
@@ -50,7 +50,8 @@ class NumberInfoFragment: Fragment(R.layout.fragment_number_info) {
             buttonback.setOnClickListener {
                 findNavController().navigate(
                     R.id.action_mainNumberFragment_to_homeFragment2,
-                )            }
+                )
+            }
         }
     }
 

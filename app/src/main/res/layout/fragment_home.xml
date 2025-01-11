@@ -19,14 +19,15 @@
             android:id="@+id/imageView4"
             android:layout_width="68dp"
             android:layout_height="61dp"
-            android:layout_marginStart="6dp"
             android:layout_marginTop="4dp"
             android:adjustViewBounds="true"
             android:src="@drawable/xrr"
             app:layout_constraintBottom_toBottomOf="@+id/textView2"
+            app:layout_constraintEnd_toStartOf="@+id/textView"
+            app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.068" />
+            app:layout_constraintVertical_bias="1.0" />
 
         <TextView
             android:id="@+id/textView"
@@ -66,8 +67,8 @@
             android:id="@+id/textView4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="21dp"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="31dp"
             android:layout_marginEnd="16dp"
             android:fontFamily="@font/berlinsans"
             android:text="@string/learn"
@@ -80,30 +81,30 @@
             app:layout_constraintVertical_bias="1.0" />
 
         <Button
+            android:id="@+id/button3"
             android:layout_width="wrap_content"
-            android:paddingRight="10dp"
-            android:paddingLeft="10dp"
             android:layout_height="42dp"
-            android:layout_marginTop="46dp"
+            android:layout_marginTop="60dp"
             android:background="@drawable/buttongray"
             android:clickable="false"
             android:fontFamily="@font/berlinlight"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
             android:text="@string/basic"
             android:textAllCaps="false"
-            android:textSize="20sp"
+            android:textSize="18sp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView4"
-            tools:layout_editor_absoluteX="1dp" />
+            app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
         <ImageView
             android:id="@+id/buttonlearn"
             android:layout_width="match_parent"
             android:layout_height="158dp"
             android:layout_marginStart="15dp"
-            android:layout_marginTop="24dp"
+            android:layout_marginTop="44dp"
             android:adjustViewBounds="true"
             android:scaleType="fitXY"
-            android:src="@drawable/handd"
+            android:src="@drawable/button_gradient"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
@@ -125,9 +126,10 @@
                 android:layout_weight="1">
 
                 <Button
+                    android:id="@+id/button"
                     android:layout_width="wrap_content"
                     android:layout_height="42dp"
-                    android:layout_marginTop="22dp"
+                    android:layout_marginTop="18dp"
                     android:background="@drawable/buttongray"
                     android:clickable="false"
                     android:fontFamily="@font/berlinlight"
@@ -135,7 +137,7 @@
                     android:paddingRight="10dp"
                     android:text="@string/common"
                     android:textAllCaps="false"
-                    android:textSize="20sp"
+                    android:textSize="18sp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="@+id/buttoncommon" />
 
@@ -146,9 +148,20 @@
                     android:layout_marginStart="14dp"
                     android:adjustViewBounds="true"
                     android:scaleType="fitStart"
-                    android:src="@drawable/common"
+                    android:src="@drawable/backgroundgreen"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="69dp"
+                    android:layout_height="63dp"
+                    android:layout_marginTop="22dp"
+                    app:layout_constraintEnd_toEndOf="@+id/buttoncommon"
+                    app:layout_constraintHorizontal_bias="0.434"
+                    app:layout_constraintStart_toStartOf="@+id/buttoncommon"
+                    app:layout_constraintTop_toBottomOf="@+id/button"
+                    app:srcCompat="@drawable/word" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -160,9 +173,10 @@
 
                 <Button
 
+                    android:id="@+id/button2"
                     android:layout_width="wrap_content"
                     android:layout_height="42dp"
-                    android:layout_marginTop="22dp"
+                    android:layout_marginTop="18dp"
                     android:background="@drawable/buttongray"
                     android:clickable="false"
                     android:fontFamily="@font/berlinlight"
@@ -170,7 +184,7 @@
                     android:paddingRight="10dp"
                     android:text="@string/conver"
                     android:textAllCaps="false"
-                    android:textSize="20sp"
+                    android:textSize="18sp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="@+id/buttoconver" />
 
@@ -182,46 +196,36 @@
                     android:layout_weight="1"
                     android:adjustViewBounds="true"
                     android:scaleType="fitEnd"
-                    android:src="@drawable/conver"
+                    android:src="@drawable/backgroundred"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="64dp"
+                    android:layout_height="72dp"
+                    android:layout_marginTop="16dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.463"
+                    app:layout_constraintStart_toStartOf="@+id/buttoconver"
+                    app:layout_constraintTop_toBottomOf="@+id/button2"
+                    app:srcCompat="@drawable/talking" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
         </LinearLayout>
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="42dp"
-            android:layout_marginTop="22dp"
-            android:background="@drawable/buttongray"
-            android:clickable="false"
-            android:fontFamily="@font/berlinlight"
-            android:paddingLeft="10dp"
-            android:paddingRight="10dp"
-            android:text="@string/voca"
-            android:textAllCaps="false"
-
-            android:textSize="20sp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/iv_topic" />
-
         <ImageView
-            android:id="@+id/iv_topic"
-            android:layout_width="match_parent"
-            android:layout_height="159dp"
-            android:layout_marginStart="10dp"
-            android:layout_marginTop="24dp"
-            android:layout_marginBottom="32dp"
-            android:adjustViewBounds="true"
-            android:scaleType="fitXY"
-            android:src="@drawable/green"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.39"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-            app:layout_constraintVertical_bias="0.312" />
+            android:id="@+id/imageView7"
+            android:layout_width="89dp"
+            android:layout_height="68dp"
+            android:layout_marginTop="12dp"
+            app:layout_constraintEnd_toEndOf="@+id/buttonlearn"
+            app:layout_constraintHorizontal_bias="0.471"
+            app:layout_constraintStart_toStartOf="@+id/buttonlearn"
+            app:layout_constraintTop_toBottomOf="@+id/button3"
+            app:srcCompat="@drawable/teacher" />
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

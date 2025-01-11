@@ -31,7 +31,7 @@ class NumberFragment : Fragment(R.layout.fragment_number) {
                     .commit()
             }
             rvNum.adapter = adapter
-            val numberList: List<Number> = NumberRepository.numbers.toList()
+            val numberList: List<Number> = NumberRepository.numbers(requireContext())
             adapter!!.submitList(numberList)
             rvNum.addItemDecoration(itemDecoration)
             rvNum.adapter =  AlphaInAnimationAdapter(adapter!!).apply {

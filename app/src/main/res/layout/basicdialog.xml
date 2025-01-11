@@ -24,7 +24,7 @@
             <ImageView
                 android:id="@+id/icon"
                 android:layout_width="match_parent"
-                android:layout_height="55dp"
+                android:layout_height="40dp"
                 android:layout_marginTop="55dp"
                 android:src="@drawable/ic_baseline_note_alt_24" />
 
@@ -32,9 +32,9 @@
                 android:id="@+id/button_hand"
                 style="?android:attr/borderlessButtonStyle"
                 android:layout_width="228dp"
-                android:layout_height="wrap_content"
+                android:layout_height="43dp"
                 android:layout_below="@id/icon"
-                android:layout_marginTop="16dp"
+                android:layout_marginTop="14dp"
                 android:background="@drawable/buttongreen"
                 android:fontFamily="@font/berlinlight"
                 android:text="@string/handwriting"
@@ -45,9 +45,9 @@
                 android:id="@+id/button_num"
                 style="?android:attr/borderlessButtonStyle"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
+                android:layout_height="43dp"
                 android:layout_below="@id/button_hand"
-                android:layout_marginTop="22dp"
+                android:layout_marginTop="16dp"
                 android:background="@drawable/buttongreen"
                 android:fontFamily="@font/berlinlight"
                 android:text="@string/num"
@@ -58,14 +58,28 @@
                 android:id="@+id/button_day"
                 style="?android:attr/borderlessButtonStyle"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
+                android:layout_height="43dp"
                 android:layout_below="@id/button_num"
-                android:layout_marginTop="22dp"
+                android:layout_marginTop="16dp"
                 android:background="@drawable/buttongreen"
                 android:fontFamily="@font/berlinlight"
                 android:text="@string/day"
                 android:textAllCaps="false"
                 android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/button_month"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="43dp"
+                android:layout_below="@id/button_day"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/buttongreen"
+                android:fontFamily="@font/berlinlight"
+                android:text="@string/month"
+                android:textAllCaps="false"
+                android:textSize="22sp" />
+
 
 
         </RelativeLayout>
@@ -73,7 +87,7 @@
 
     <Button
         android:layout_width="140dp"
-        android:layout_height="40dp"
+        android:layout_height="38dp"
         android:layout_marginTop="22dp"
         android:layout_marginEnd="134dp"
         android:background="@drawable/buttongreen"
@@ -81,7 +95,7 @@
         android:fontFamily="@font/berlinlight"
         android:text="@string/basic"
         android:textAllCaps="false"
-        android:textSize="20sp"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="@+id/cardView3"
         app:layout_constraintEnd_toEndOf="@+id/cardView3"
         app:layout_constraintHorizontal_bias="1.0"

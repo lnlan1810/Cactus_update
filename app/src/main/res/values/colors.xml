@@ -65,6 +65,10 @@
     <color name="list_header_background">#F1F1F1</color>
     <color name="dark_orange">#277E32</color>
 
+    <color name="categoryColor1">#FFE47A</color> <!-- Vàng nhạt -->
+    <color name="categoryColor2">#B5E8A4</color> <!-- Xanh nhạt -->
+    <color name="categoryColor3">#BFDBFE</color> <!-- Xanh da trời nhạt -->
+    <color name="categoryColor4">#EAC4E2</color> <!-- Đỏ nhạt -->
 
 
 </resources>

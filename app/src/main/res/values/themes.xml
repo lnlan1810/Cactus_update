@@ -1,10 +1,11 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
+
     <!-- Base application theme. -->
     <style name="Theme.Cactus" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">#5ECF18</item>
+        <item name="colorPrimary">#2F8032</item>
         <item name="colorPrimaryVariant">#00C51A</item>
-        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorOnPrimary">@color/app_background_color</item>
 
         <!-- Secondary brand color. -->
         <item name="colorSecondary">#14C500</item>

@@ -9,9 +9,122 @@
     <string name="handwriting">Handwriting</string>
     <string name="num">Numbers</string>
     <string name="day">Days</string>
+    <string name="month">Months</string>
+    <string name="months">Months</string>
+
     <string name="nouns">Nouns</string>
     <string name="verbs">Verbs</string>
     <string name="adj">Adjectives</string>
+
+    <string name="person">person; human</string>
+    <string name="friend">friend</string>
+    <string name="child">child; kid</string>
+    <string name="woman">woman</string>
+    <string name="man">man</string>
+    <string name="boy">boy</string>
+    <string name="girl">girl</string>
+    <string name="girlfriend">young woman; girl; girlfriend</string>
+    <string name="boyfriend">young man; boy; boyfriend</string>
+    <string name="name">name</string>
+    <string name="surname">surname; family name</string>
+    <string name="boss">boss</string>
+    <string name="visitor">visitor; guest</string>
+
+    <string name="family">family</string>
+    <string name="father">father</string>
+    <string name="dad">dad</string>
+    <string name="mother">mother</string>
+    <string name="son">son</string>
+    <string name="daughter">daughter</string>
+    <string name="brother">brother</string>
+    <string name="sister">sister</string>
+    <string name="wife">wife</string>
+    <string name="husband">husband</string>
+
+    <string name="place">place</string>
+    <string name="earth">earth</string>
+    <string name="town">town</string>
+    <string name="street">street</string>
+    <string name="Moscow">Moscow</string>
+    <string name="country">country</string>
+    <string name="Russia">Russia</string>
+    <string name="road">road</string>
+
+    <string name="forest">forest</string>
+    <string name="air">air</string>
+    <string name="fire">fire</string>
+    <string name="water">water</string>
+    <string name="wind">wind</string>
+    <string name="sun">sun</string>
+    <string name="moon">moon</string>
+    <string name="tree">tree</string>
+    <string name="snow">snow</string>
+    <string name="sky">sky</string>
+    <string name="sea">sea</string>
+
+    <string name="animal">animal</string>
+    <string name="dog">dog</string>
+    <string name="catmale">cat</string>
+    <string name="catfemale">cat</string>
+    <string name="mosquito">mosquito</string>
+
+    <string name="house">house</string>
+    <string name="apartment">apartment</string>
+    <string name="door">door</string>
+    <string name="window">window</string>
+    <string name="table">table</string>
+    <string name="room">room</string>
+    <string name="book">book</string>
+    <string name="light">light</string>
+
+    <string name="dailyLife">Daily Life</string>
+    <string name="money">money</string>
+    <string name="letter">letter</string>
+    <string name="school">school</string>
+    <string name="university">university</string>
+    <string name="car">car</string>
+    <string name="computer">computer</string>
+    <string name="laptop">laptop</string>
+    <string name="phone">phone</string>
+    <string name="earphones">earphones</string>
+    <string name="charger">charger</string>
+    <string name="website">website</string>
+    <string name="app">app</string>
+    <string name="game">game</string>
+    <string name="help">help</string>
+    <string name="breakfast">breakfast</string>
+    <string name="lunch">lunch</string>
+    <string name="dinner">dinner</string>
+
+    <string name="time">time</string>
+    <string name="minute">minute</string>
+    <string name="hour">hour</string>
+    <string name="day1">day</string>
+    <string name="week">week</string>
+    <string name="weekdays">weekdays</string>
+    <string name="weekend">weekend</string>
+    <string name="month1">month</string>
+    <string name="year">year</string>
+    <string name="night">night</string>
+    <string name="life">life</string>
+    <string name="morning">morning</string>
+    <string name="evening">evening</string>
+
+    <string name="bodyParts">Body Parts</string>
+    <string name="head">head</string>
+    <string name="face">face</string>
+    <string name="eye">eye</string>
+    <string name="nose">nose</string>
+    <string name="ear">ear</string>
+    <string name="voice">voice</string>
+    <string name="body">body</string>
+    <string name="arm">arm</string>
+    <string name="leg">leg</string>
+    <string name="finger">finger</string>
+    <string name="back">back</string>
+    <string name="heart">heart</string>
+    <string name="blood">blood</string>
+
 
     <string name="rate">5 star rating</string>
     <string name="feedback">Feedback</string>
@@ -23,7 +136,8 @@
     <string name="zero">Zero</string>
     <string name="one">One</string>
     <string name="two">Two</string>
-    <string name="three">four</string>
+    <string name="three">Three</string>
+    <string name="four">Four</string>
     <string name="five">Five</string>
     <string name="six">Six</string>
     <string name="seven">Seven</string>
@@ -48,6 +162,27 @@
     <string name="eighty">Eighty</string>
     <string name="ninety">Ninety</string>
     <string name="onehundred">One hundred</string>
+    <string name="twohundred">Two hundred</string>
+    <string name="threehundred">Three hundred</string>
+    <string name="fourhundred">Four hundred</string>
+    <string name="fivehundred">Five hundred</string>
+    <string name="sixhundred">Six hundred</string>
+    <string name="sevenhundred">Seven hundred</string>
+    <string name="eighthundred">Eight hundred</string>
+    <string name="ninehundred">Nine hundred</string>
+    <string name="onethousand">One thousand</string>
+    <string name="twothousand">Two thousand</string>
+    <string name="threethousand">Three thousand</string>
+    <string name="fourthousand">Four thousand</string>
+    <string name="fivethousand">Five thousand</string>
+    <string name="sixthousand">Six thousand</string>
+    <string name="seventhousand">Seven thousand</string>
+    <string name="eightthousand">Eight thousand</string>
+    <string name="ninethousand">Nine thousand</string>
+    <string name="tenthousand">Ten thousand</string>
+    <string name="hundredthousand">One hundred thousand</string>
+    <string name="onemillion">One million</string>
+    <string name="onebillion">One billion</string>
 
     <string name="monday">Monday</string>
     <string name="tuesday">Tuesday</string>
@@ -76,18 +211,6 @@
     <string name="notification_channel_desc">my channel is the best because I wrote it</string>
 
     <string name="dia1">Dialogue 1</string>
-    <string name="year">Year</string>
-    <string name="time">Time</string>
-    <string name="man">Man. person</string>
-    <string name="hand">Hand, arm</string>
-    <string name="big">Big</string>
-    <string name="samll">Small</string>
-    <string name="good">Good</string>
-    <string name="beautifu">Beautifu</string>
-    <string name="tobe">To be, have</string>
-    <string name="tosay">To say, speak</string>
-    <string name="beable">Be able</string>
-    <string name="say">To say, tell, speak</string>
     <string name="dia2">Dialogue 2</string>
     <string name="dia3">Dialogue 3</string>
     <string name="dia4">Dialogue 4</string>

@@ -26,11 +26,23 @@ class DayFragment : Fragment(R.layout.fragment_day) {
                 soundOn(WeekDay.MONDAY)
             }
 
-           /* cardViewTues.setOnClickListener {
+            soundmon.setOnClickListener {
+                soundOn(WeekDay.MONDAY)
+            }
+
+            cardviewtues.setOnClickListener {
                 soundOn(WeekDay.TUESDAY)
-            }*/
+            }
+
+            soundtues.setOnClickListener {
+                soundOn(WeekDay.TUESDAY)
+            }
 
             cardviewed.setOnClickListener {
+                soundOn(WeekDay.WEDNESDAY)
+            }
+
+            soundbwed.setOnClickListener {
                 soundOn(WeekDay.WEDNESDAY)
             }
 
@@ -38,10 +50,33 @@ class DayFragment : Fragment(R.layout.fragment_day) {
                 soundOn(WeekDay.THURSDAY)
             }
 
+            soundthur.setOnClickListener {
+                soundOn(WeekDay.THURSDAY)
+            }
+
             cardviewfri.setOnClickListener {
                 soundOn(WeekDay.FRIDAY)
             }
 
+            ibsoundfri.setOnClickListener {
+                soundOn(WeekDay.FRIDAY)
+            }
+
+            cardwiewsat.setOnClickListener {
+                soundOn(WeekDay.SATURDAY)
+            }
+
+            soundsat.setOnClickListener {
+                soundOn(WeekDay.SATURDAY)
+            }
+
+            cardviewedsun.setOnClickListener {
+                soundOn(WeekDay.SUN)
+            }
+
+            soundbsun.setOnClickListener {
+                soundOn(WeekDay.SUN)
+            }
         }
     }
 
@@ -51,6 +86,7 @@ class DayFragment : Fragment(R.layout.fragment_day) {
         WEDNESDAY(R.raw.wed),
         THURSDAY(R.raw.thur),
         FRIDAY(R.raw.fri),
+        SATURDAY(R.raw.sat),
         SUN(R.raw.sun)
     }
 
