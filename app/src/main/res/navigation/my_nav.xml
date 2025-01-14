@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/nested">
+
+
+    <include app:graph="@navigation/nested" />
+    <include app:graph="@navigation/nest" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.android.cactus.presentation.fragment.HomeFragment"
+        android:label="HomeFragment" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/tranlateFragment"
+        android:name="com.example.android.cactus.presentation.fragment.TranlateFragment"
+        android:label="fragment_tranlate"
+        tools:layout="@layout/fragment_tranlate" >
+    </fragment>
+    <fragment
+        android:id="@+id/vocabularyNotebookFragment"
+        android:name="com.example.android.cactus.presentation.ui.category.VocabularyNotebookFragment"
+        android:label="VocabularyNotebookFragment" />
+
+
+</navigation>
