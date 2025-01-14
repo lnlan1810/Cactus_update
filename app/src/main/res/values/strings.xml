@@ -9,9 +9,122 @@
     <string name="handwriting">Handwriting</string>
     <string name="num">Numbers</string>
     <string name="day">Days</string>
+    <string name="month">Months</string>
+    <string name="months">Months</string>
+
     <string name="nouns">Nouns</string>
     <string name="verbs">Verbs</string>
     <string name="adj">Adjectives</string>
+
+    <string name="person">person; human</string>
+    <string name="friend">friend</string>
+    <string name="child">child; kid</string>
+    <string name="woman">woman</string>
+    <string name="man">man</string>
+    <string name="boy">boy</string>
+    <string name="girl">girl</string>
+    <string name="girlfriend">young woman; girl; girlfriend</string>
+    <string name="boyfriend">young man; boy; boyfriend</string>
+    <string name="name">name</string>
+    <string name="surname">surname; family name</string>
+    <string name="boss">boss</string>
+    <string name="visitor">visitor; guest</string>
+
+    <string name="family">family</string>
+    <string name="father">father</string>
+    <string name="dad">dad</string>
+    <string name="mother">mother</string>
+    <string name="son">son</string>
+    <string name="daughter">daughter</string>
+    <string name="brother">brother</string>
+    <string name="sister">sister</string>
+    <string name="wife">wife</string>
+    <string name="husband">husband</string>
+
+    <string name="place">place</string>
+    <string name="earth">earth</string>
+    <string name="town">town, city</string>
+    <string name="street">street</string>
+    <string name="Moscow">Moscow</string>
+    <string name="country">country</string>
+    <string name="Russia">Russia</string>
+    <string name="road">road</string>
+
+    <string name="forest">forest</string>
+    <string name="air">air</string>
+    <string name="fire">fire</string>
+    <string name="water">water</string>
+    <string name="wind">wind</string>
+    <string name="sun">sun</string>
+    <string name="moon">moon</string>
+    <string name="tree">tree</string>
+    <string name="snow">snow</string>
+    <string name="sky">sky</string>
+    <string name="sea">sea</string>
+
+    <string name="animal">animal</string>
+    <string name="dog">dog</string>
+    <string name="catmale">cat (male)</string>
+    <string name="catfemale">cat (female)</string>
+    <string name="mosquito">mosquito</string>
+
+    <string name="house">house</string>
+    <string name="apartment">apartment</string>
+    <string name="door">door</string>
+    <string name="window">window</string>
+    <string name="table">table</string>
+    <string name="room">room</string>
+    <string name="book">book</string>
+    <string name="light">light</string>
+
+    <string name="dailyLife">Daily Life</string>
+    <string name="money">money</string>
+    <string name="letter">letter</string>
+    <string name="school">school</string>
+    <string name="university">university</string>
+    <string name="car">car</string>
+    <string name="computer">computer</string>
+    <string name="laptop">laptop</string>
+    <string name="phone">phone</string>
+    <string name="earphones">earphones</string>
+    <string name="charger">charger</string>
+    <string name="website">website</string>
+    <string name="app">app</string>
+    <string name="game">game</string>
+    <string name="help">help</string>
+    <string name="breakfast">breakfast</string>
+    <string name="lunch">lunch</string>
+    <string name="dinner">dinner</string>
+
+    <string name="time">time</string>
+    <string name="minute">minute</string>
+    <string name="hour">hour</string>
+    <string name="day1">day</string>
+    <string name="week">week</string>
+    <string name="weekdays">weekdays</string>
+    <string name="weekend">weekend</string>
+    <string name="month1">month</string>
+    <string name="year">year</string>
+    <string name="night">night</string>
+    <string name="life">life</string>
+    <string name="morning">morning</string>
+    <string name="evening">evening</string>
+
+    <string name="bodyParts">Body Parts</string>
+    <string name="head">head</string>
+    <string name="face">face</string>
+    <string name="eye">eye</string>
+    <string name="nose">nose</string>
+    <string name="ear">ear</string>
+    <string name="voice">voice</string>
+    <string name="body">body</string>
+    <string name="arm">arm</string>
+    <string name="leg">leg</string>
+    <string name="finger">finger</string>
+    <string name="back">back</string>
+    <string name="heart">heart</string>
+    <string name="blood">blood</string>
+
 
     <string name="rate">5 star rating</string>
     <string name="feedback">Feedback</string>
@@ -23,7 +136,8 @@
     <string name="zero">Zero</string>
     <string name="one">One</string>
     <string name="two">Two</string>
-    <string name="three">four</string>
+    <string name="three">Three</string>
+    <string name="four">Four</string>
     <string name="five">Five</string>
     <string name="six">Six</string>
     <string name="seven">Seven</string>
@@ -48,6 +162,27 @@
     <string name="eighty">Eighty</string>
     <string name="ninety">Ninety</string>
     <string name="onehundred">One hundred</string>
+    <string name="twohundred">Two hundred</string>
+    <string name="threehundred">Three hundred</string>
+    <string name="fourhundred">Four hundred</string>
+    <string name="fivehundred">Five hundred</string>
+    <string name="sixhundred">Six hundred</string>
+    <string name="sevenhundred">Seven hundred</string>
+    <string name="eighthundred">Eight hundred</string>
+    <string name="ninehundred">Nine hundred</string>
+    <string name="onethousand">One thousand</string>
+    <string name="twothousand">Two thousand</string>
+    <string name="threethousand">Three thousand</string>
+    <string name="fourthousand">Four thousand</string>
+    <string name="fivethousand">Five thousand</string>
+    <string name="sixthousand">Six thousand</string>
+    <string name="seventhousand">Seven thousand</string>
+    <string name="eightthousand">Eight thousand</string>
+    <string name="ninethousand">Nine thousand</string>
+    <string name="tenthousand">Ten thousand</string>
+    <string name="hundredthousand">One hundred thousand</string>
+    <string name="onemillion">One million</string>
+    <string name="onebillion">One billion</string>
 
     <string name="monday">Monday</string>
     <string name="tuesday">Tuesday</string>
@@ -76,18 +211,6 @@
     <string name="notification_channel_desc">my channel is the best because I wrote it</string>
 
     <string name="dia1">Dialogue 1</string>
-    <string name="year">Year</string>
-    <string name="time">Time</string>
-    <string name="man">Man. person</string>
-    <string name="hand">Hand, arm</string>
-    <string name="big">Big</string>
-    <string name="samll">Small</string>
-    <string name="good">Good</string>
-    <string name="beautifu">Beautifu</string>
-    <string name="tobe">To be, have</string>
-    <string name="tosay">To say, speak</string>
-    <string name="beable">Be able</string>
-    <string name="say">To say, tell, speak</string>
     <string name="dia2">Dialogue 2</string>
     <string name="dia3">Dialogue 3</string>
     <string name="dia4">Dialogue 4</string>
@@ -127,109 +250,243 @@
     <string name="Notification_text">Take your next session!</string>
     <string name="main_channel_id">mainChannelId</string>
 
-    <string name="grammer">Grammer</string>
-    <string name="present">Present tense</string>
-    <string name="future">Future tense</string>
-    <string name="past">Past tense</string>
-    <string name="personal">Personal pronouns</string>
+    <!-- English Strings -->
+    <string name="z_nat">to know</string>
+    <string name="z_naty">I know</string>
+    <string name="z_natyu">you (singular, informal) know</string>
+    <string name="z_natye">he/she knows</string>
+    <string name="z_natw">we know</string>
+    <string name="z_natypl">you (plural, informal)/you (formal) know</string>
+    <string name="z_natt">they know</string>
 
-    <string name="intro">It worth to mention that Present tense in Russian equals to Present Simple, Present Continuous, Present Perfect Continuous in English. \n
-    for example:\n
-        Present Simple: I live in Moscow. \n
-        – Я живу в Москве \n
-        Present Continuous: I am going to Moscow. \n
-        – Я еду в Москву. \n
-        Present Perfect Continuous: I have been living in Moscow for 10 years already. \n
-        – Я живу в Москве уже 10 лет. \n
+    <string name="z_zhit">to live</string>
+    <string name="z_zhity">I live</string>
+    <string name="z_zhitu">you (singular, informal) live</string>
+    <string name="z_zhite">he/she lives</string>
+    <string name="z_zhitw">we live</string>
+    <string name="z_zhitpl">you (plural, informal)/you (formal) live</string>
+    <string name="z_zhitt">they live</string>
 
-    </string>
-    <string name="conjugation">Conjugation</string>
-    <string name="futurelession">Quite simply, the future tense in Russian corresponds to things happening in the future. \n
-        Like English, Russian has no true future tense, instead a future tense is formed by using grammatical constructions involving auxiliary words and present tense verbs (present tense: I am running, future tense: I will be running). \n
-        In Russian to form a future tense, you either use a perfective verb and conjugate it in the present. \n
-        \n
-        For example, "Я делаю (present tense conjugation of imperfective verb" refers to the present time ("I do/I am doing"), while "Я сделаю (present tense conjugation of perfective verb)" refers to a time in the future ("I will do"). \n
-        Or you use an auxiliary verb "быть" conjugated in the present together with the infinitve of an imperfective verb "Я буду делать (present tense conjugation of the verb "быть")" ("I will be doing")</string>
-    <string name="pastlession">So, how do we form the past tense? Let’s take the verb “говорить” (govorit’ – to talk) as an example. “Говорить” (govorit’) is the infinitive form. To form the past tense, we change the ending “–ть” into the suffix “–л”:
+    <string name="z_lovet">to love, to like</string>
+    <string name="z_lovety">I love/like</string>
+    <string name="z_lovetu">you (singular, informal) love/like</string>
+    <string name="z_lovete">he/she loves/likes</string>
+    <string name="z_lovetw">we love/like</string>
+    <string name="z_lovetpl">you (plural, informal)/you (formal) love/like</string>
+    <string name="z_lovett">they love/like</string>
 
-говорить (govorit’) – говорил (govoril)
+    <string name="z_work">to work</string>
+    <string name="z_worky">I work</string>
+    <string name="z_worku">you (singular, informal) work</string>
+    <string name="z_worke">he/she works</string>
+    <string name="z_workw">we work</string>
+    <string name="z_workpl">you (plural, informal)/you (formal) work</string>
+    <string name="z_workt">they work</string>
 
-You do the same thing with all verbs to create the past tense:
+    <string name="z_wait">to wait</string>
+    <string name="z_waity">I wait</string>
+    <string name="z_waitu">you (singular, informal) wait</string>
+    <string name="z_waite">he/she waits</string>
+    <string name="z_waitw">we wait</string>
+    <string name="z_waitpl">you (plural, informal)/you (formal) wait</string>
+    <string name="z_waitt">they wait</string>
 
-читать (chitat’) – читал (chital) – to read
+    <string name="z_speak">to speak</string>
+    <string name="z_speaky">I speak</string>
+    <string name="z_speaku">you (singular, informal) speak</string>
+    <string name="z_speake">he/she speaks</string>
+    <string name="z_speakw">we speak</string>
+    <string name="z_speakpl">you (plural, informal)/you (formal) speak</string>
+    <string name="z_speakt">they speak</string>
 
-плакать (plakat’) – плакал (plakal) – to cry
+    <string name="z_think">to think</string>
+    <string name="z_thinky">I think</string>
+    <string name="z_thinku">you (singular, informal) think</string>
+    <string name="z_thinke">he/she thinks</string>
+    <string name="z_thinkw">we think</string>
+    <string name="z_thinkpl">you (plural, informal)/you (formal) think</string>
+    <string name="z_thinkt">they think</string>
 
-сомневаться (somnevat’sya) – сомневался (somnevalsya) – to doubt
+    <string name="z_understand">to understand</string>
+    <string name="z_understandy">I understand</string>
+    <string name="z_understandu">you (singular, informal) understand</string>
+    <string name="z_understande">he/she understands</string>
+    <string name="z_understandw">we understand</string>
+    <string name="z_understandpl">you (plural, informal)/you (formal) understand</string>
+    <string name="z_understandt">they understand</string>
 
+    <string name="z_can">can, to be able to</string>
+    <string name="z_cany">I can</string>
+    <string name="z_canu">you (singular, informal) can</string>
+    <string name="z_cane">he/she can</string>
+    <string name="z_canw">we can</string>
+    <string name="z_canpl">you (plural, informal)/you (formal) can</string>
+    <string name="z_cant">they can</string>
 
-Russian verbs change their endings depending on the gender of the subject they refer to.
+    <string name="z_want">to want</string>
+    <string name="z_wanty">I want</string>
+    <string name="z_wantu">you (singular, informal) want</string>
+    <string name="z_wante">he/she wants</string>
+    <string name="z_wantw">we want</string>
+    <string name="z_wantpl">you (plural, informal)/you (formal) want</string>
+    <string name="z_wantt">they want</string>
 
-Он читал книгу. (Ya chital.) – He read a book.
+    <string name="z_do">to do</string>
+    <string name="z_doy">I do</string>
+    <string name="z_dou">you (singular, informal) do</string>
+    <string name="z_doe">he/she does</string>
+    <string name="z_dow">we do</string>
+    <string name="z_dopl">you (plural, informal)/you (formal) do</string>
+    <string name="z_dot">they do</string>
 
-Она читала газету. (Ona chitala.) – She read a newspaper.
+    <string name="z_take">to take</string>
+    <string name="z_takey">I take</string>
+    <string name="z_takeu">you (singular, informal) take</string>
+    <string name="z_takee">he/she takes</string>
+    <string name="z_takew">we take</string>
+    <string name="z_takepl">you (plural, informal)/you (formal) take</string>
+    <string name="z_taket">they take</string>
 
-Оно читало мои мысли. (Ono chitalo moi mysli.) – It read my thoughts.
+    <string name="z_give">to give</string>
+    <string name="z_givey">I give</string>
+    <string name="z_giveu">you (singular, informal) give</string>
+    <string name="z_givee">he/she gives</string>
+    <string name="z_givew">we give</string>
+    <string name="z_givepl">you (plural, informal)/you (formal) give</string>
+    <string name="z_givet">they give</string>
 
-Они читали объявление. (Oni chitali ob’yavlenie.) – They read an announcement.
+    <string name="z_remember">to remember</string>
+    <string name="z_remembery">I remember</string>
+    <string name="z_rememberu">you (singular, informal) remember</string>
+    <string name="z_remembere">he/she remembers</string>
+    <string name="z_rememberw">we remember</string>
+    <string name="z_rememberpl">you (plural, informal)/you (formal) remember</string>
+    <string name="z_remembert">they remember</string>
 
-As you can see, if the pronoun is masculine, there is no ending. If it’s feminine, the ending is “–а” (а), and when it’s neutral, the ending is “–о” (o). For the plural, the ending is –и (i).
+    <string name = "adj_size">Describing Appearance, Sizes and Weight</string>
+    <!-- Describing Appearance, Sizes & Weight -->
+    <string name="small">small; little</string>
+    <string name="big">big</string>
+    <string name="huge">huge</string>
+    <string name="tall_high">tall; high</string>
+    <string name="low_short">low; short</string>
+    <string name="new_adj">new</string>
+    <string name="full">full</string>
+    <string name="empty">empty</string>
+    <string name="heavy">heavy</string>
+    <string name="light_easy">light; easy</string>
+    <string name="long_adj">long</string>
+    <string name="short_adj">short</string>
+    <string name="wide_broad">wide; broad</string>
+    <string name="narrow_tight">narrow; tight</string>
+    <string name="clean">clean</string>
+    <string name="dirty">dirty</string>
+    <string name="thin">thin</string>
 
+    <!-- Russian Adjectives to Describe a Person -->
+    <string name="adj_describe">Russian Adjectives to Describe a Person</string>
+    <string name="young">young</string>
+    <string name="old">old</string>
+    <string name="strong">strong</string>
+    <string name="weak">weak</string>
+    <string name="scary">scary</string>
+    <string name="beautiful">beautiful; handsome; pretty</string>
+    <string name="splendid">splendid; fine; great</string>
+    <string name="cute">cute; dear</string>
+    <string name="skinny">skinny</string>
+    <string name="fat">fat</string>
+    <string name="rich">rich</string>
+    <string name="poor">poor</string>
+    <string name="ill">ill; aching; hurting</string>
+    <string name="healthy">healthy</string>
+    <string name="older">older; elder</string>
+    <string name="younger">younger</string>
+    <string name="kids">kids’</string>
+    <string name="adult">adult</string>
 
-If the verb is reflexive, when the action is directed to the subject, for example, “I wash myself,” you also change “–ть” to “–л,” but keep the reflexive ending “–ся.”
+    <!-- Describing Personalities and Feelings -->
+    <string name="adj_fellings">Describing Personalities and Feelings</string>
+    <string name="kind">kind</string>
+    <string name="angry">angry</string>
+    <string name="loyal">loyal</string>
+    <string name="confident">confident</string>
+    <string name="serious">serious</string>
+    <string name="happy">happy</string>
+    <string name="dangerous">dangerous</string>
+    <string name="funny">funny</string>
+    <string name="boring">boring</string>
 
-Улыбаться (ulybat’sya) – улыбался (ulybalsya) – to smile
+    <!-- Describing Colors -->
+    <string name="adj_colors">Describing Colors</string>
+    <string name="white">white</string>
+    <string name="red">red</string>
+    <string name="black">black</string>
+    <string name="green">green</string>
+    <string name="yellow">yellow</string>
+    <string name="intense_blue">intense blue</string>
+    <string name="light_blue">light blue</string>
+    <string name="gray">gray</string>
+    <string name="dark">dark</string>
+    <string name="light_bright">light; bright</string>
 
-Смеяться (smeyat’sya) – смеялся (smeyalsya) – to laugh</string>
-    <string name="personnallession">Usage \n
-Pronouns are words that are used as substitutes for nouns. They do not name objects, their characteristics or quantity but only refer to them. There are nine types of pronouns in Russian.
+    <!-- Evaluating Things -->
+    <string name="adj_evaluating">Evaluating Things</string>
+    <string name="important">important</string>
+    <string name="good">good</string>
+    <string name="bad">bad</string>
+    <string name="favorite">favorite</string>
+    <string name="real_true">real; true</string>
+    <string name="necessary">necessary</string>
+    <string name="famous">famous</string>
+    <string name="known_familiar">known; familiar</string>
+    <string name="similar">similar</string>
+    <string name="next">the next</string>
+    <string name="personal">personal</string>
+    <string name="simple">easy; simple</string>
+    <string name="complicated">difficult; complicated</string>
+    <string name="only">the only</string>
+    <string name="last_latest">the last; the latest</string>
+    <string name="best">the best</string>
+    <string name="primary_basic">primary; first; basic</string>
+    <string name="main_chief">main; chief; head</string>
+    <string name="ex_last">ex-; last</string>
+    <string name="special">special</string>
+    <string name="usual">usual</string>
+    <string name="late">late</string>
+    <string name="early">early</string>
 
-Let is take a look at the Russian personal pronouns. \n
-я (I) \n
-мы (we) \n
-ты (you - singular; thou*) \n
-вы (you - plural) \n
-он (he) \n
-онá (she) \n
-онó (it) \n
-они (they). \n
-*In Russian, as in many other languages, ты (thou) is used generally among people very familiar with each other, or by superiors to inferiors. \n
- \n
-The Person \n
-As you may know, the first person grammar term refers to someone who is the author of the narration. Therefore я, мы are the first person pronouns; they refer to the speaker. \n
- \n
-Я стал медленно взбираться на холм. \n
-I started to climb the hill slowly. \n
-(я refers to someone who is actually saying this sentence) \n
- \n
-In addition, the pronoun мы refers to people who perform an action along with the speaker. \n
- \n
-Мы все éли яблоки: и я, и Миша, и Толя, и Дима. \n
-We were all eating apples: I and Misha and Tolya and Dima. \n
-(мы refers to all people who were performing an action) \n
- \n
-The second person describes someone who was addressed by the utterance. In other words, it is the person you are talking to. Therefore ты, вы are the second person pronouns; they refer to one or more people. \n
- \n
-Лéна, ты тáк хорошó поёшь. \n
-Lena, you sing so well. \n
-(ты substitutes for Lena, the person being addressed) \n
- \n
-Когдá вы пойдёте на пляж? \n
-When will you go to the beach? \n
-(вы substitutes for the people addressed) \n
- \n
-The third person pronouns он, она, оно, они refer to the person or thing being talked about. \n
- \n
-Он заинтересовáлся игрóй. \n
-He became interested in the game. \n
+    <!-- Describing Tastes and Temperatures -->
+    <string name="adj_tastes">Describing Tastes and Temperatures</string>
+    <string name="spicy">spicy</string>
+    <string name="salty">salty</string>
+    <string name="sweet">sweet</string>
+    <string name="sour">sour</string>
+    <string name="cold">cold</string>
+    <string name="warm">warm</string>
+    <string name="hot">hot</string>
+    <string name="air_hot">hot (air temperature)</string>
 
-Онá былá единственным ребёнком в семьé. \n
-She was the only child in the family \n
- \n
-Они встáли и поздорóвались. \n
-They stood up and greeted.</string>
+    <!-- Describing Places -->
+    <string name="adj_places">Describing Places</string>
+    <string name="long_trip">long</string>
+    <string name="fast">fast; quick</string>
+    <string name="slow">slow</string>
+    <string name="deep">deep</string>
+    <string name="moscow">Moscow’s</string>
+    <string name="russian">Russian</string>
+    <string name="federation_russian">Russian Federation’s</string>
+    <string name="military">military</string>
+    <string name="local">local</string>
+    <string name="working">working</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Describing Shapes and Materials -->
+    <string name="adj_shapes">Describing Shapes and Materials</string>
+    <string name="soft">soft</string>
+    <string name="hard">hard; rigid; firm</string>
+    <string name="round">round</string>
+    <string name="square">square</string>
+    <string name="smooth">smooth</string>
+    <string name="golden">golden; gold</string>
+    <string name="iron">iron</string>
 
 </resources>

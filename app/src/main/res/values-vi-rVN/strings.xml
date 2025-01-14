@@ -9,12 +9,123 @@
     <string name="handwriting">Viết tay</string>
     <string name="num">Số</string>
     <string name="day">Ngày</string>
+    <string name="month">Tháng</string>
     <string name="nouns">Danh từ</string>
+    <string name="months">Months</string>
     <string name="verbs">Động từ</string>
     <string name="adj">tính từ</string>
 
     <string name="rate">Dánh giá</string>
     <string name="feedback">bình luận</string>
+
+    <string name="person">người; con người</string>
+    <string name="friend">bạn</string>
+    <string name="child">trẻ em; đứa trẻ</string>
+    <string name="woman">phụ nữ</string>
+    <string name="man">đàn ông</string>
+    <string name="boy">cậu bé</string>
+    <string name="girl">cô gái</string>
+    <string name="girlfriend">phụ nữ trẻ; bạn gái</string>
+    <string name="boyfriend">nam thanh niên; bạn trai</string>
+    <string name="name">tên</string>
+    <string name="surname">họ; tên gia đình</string>
+    <string name="boss">sếp</string>
+    <string name="visitor">khách</string>
+
+    <string name="family">gia đình</string>
+    <string name="father">cha</string>
+    <string name="dad">bố</string>
+    <string name="mother">mẹ</string>
+    <string name="son">con trai</string>
+    <string name="daughter">con gái</string>
+    <string name="brother">anh em trai</string>
+    <string name="sister">chị em gái</string>
+    <string name="wife">vợ</string>
+    <string name="husband">chồng</string>
+
+    <string name="place">nơi; chỗ</string>
+    <string name="earth">trái đất</string>
+    <string name="town">thị trấn; thành phố</string>
+    <string name="street">đường phố</string>
+    <string name="Moscow">Moscow</string>
+    <string name="country">quốc gia</string>
+    <string name="Russia">Nga</string>
+    <string name="road">con đường</string>
+
+    <string name="forest">rừng</string>
+    <string name="air">không khí</string>
+    <string name="fire">lửa</string>
+    <string name="water">nước</string>
+    <string name="wind">gió</string>
+    <string name="sun">mặt trời</string>
+    <string name="moon">mặt trăng</string>
+    <string name="tree">cây</string>
+    <string name="snow">tuyết</string>
+    <string name="sky">bầu trời</string>
+    <string name="sea">biển</string>
+
+    <string name="animal">động vật</string>
+    <string name="dog">chó</string>
+    <string name="catmale">mèo (đực)</string>
+    <string name="catfemale">mèo (cái)</string>
+    <string name="mosquito">muỗi</string>
+
+    <string name="house">nhà</string>
+    <string name="apartment">căn hộ</string>
+    <string name="door">cửa</string>
+    <string name="window">cửa sổ</string>
+    <string name="table">cái bàn</string>
+    <string name="room">phòng</string>
+    <string name="book">sách</string>
+    <string name="light">ánh sáng</string>
+
+    <string name="dailyLife">Cuộc sống hàng ngày</string>
+    <string name="money">tiền</string>
+    <string name="letter">thư</string>
+    <string name="school">trường học</string>
+    <string name="university">đại học</string>
+    <string name="car">xe ô tô</string>
+    <string name="computer">máy tính</string>
+    <string name="laptop">máy tính xách tay</string>
+    <string name="phone">điện thoại</string>
+    <string name="earphones">tai nghe</string>
+    <string name="charger">sạc</string>
+    <string name="website">trang web</string>
+    <string name="app">ứng dụng</string>
+    <string name="game">trò chơi</string>
+    <string name="help">giúp đỡ</string>
+    <string name="breakfast">bữa sáng</string>
+    <string name="lunch">bữa trưa</string>
+    <string name="dinner">bữa tối</string>
+
+    <string name="time">thời gian</string>
+    <string name="minute">phút</string>
+    <string name="hour">giờ</string>
+    <string name="day1">ngày</string>
+    <string name="week">tuần</string>
+    <string name="weekdays">ngày trong tuần</string>
+    <string name="weekend">cuối tuần</string>
+    <string name="month1">tháng</string>
+    <string name="year">năm</string>
+    <string name="night">đêm</string>
+    <string name="life">cuộc sống</string>
+    <string name="morning">buổi sáng</string>
+    <string name="evening">buổi tối</string>
+
+    <string name="bodyParts">Các bộ phận cơ thể</string>
+    <string name="head">đầu</string>
+    <string name="face">mặt</string>
+    <string name="eye">mắt</string>
+    <string name="nose">mũi</string>
+    <string name="ear">tai</string>
+    <string name="voice">giọng nói</string>
+    <string name="body">cơ thể</string>
+    <string name="arm">cánh tay; tay</string>
+    <string name="leg">chân</string>
+    <string name="finger">ngón tay</string>
+    <string name="back">lưng</string>
+    <string name="heart">tim</string>
+    <string name="blood">máu</string>
 
     <string name="common">Từ thường gặp</string>
     <string name="conver">Hội thoại</string>
@@ -24,6 +135,7 @@
     <string name="one">Một</string>
     <string name="two">Hai</string>
     <string name="three">Ba</string>
+    <string name="four">Bốn</string>
     <string name="five">Năm</string>
     <string name="six">Sáu</string>
     <string name="seven">Bảy</string>
@@ -48,6 +160,27 @@
     <string name="eighty">Eighty</string>
     <string name="ninety">Ninety</string>
     <string name="onehundred">One hundred</string>
+    <string name="twohundred">Hai trăm</string>
+    <string name="threehundred">Ba trăm</string>
+    <string name="fourhundred">Bốn trăm</string>
+    <string name="fivehundred">Năm trăm</string>
+    <string name="sixhundred">Sáu trăm</string>
+    <string name="sevenhundred">Bảy trăm</string>
+    <string name="eighthundred">Tám trăm</string>
+    <string name="ninehundred">Chín trăm</string>
+    <string name="onethousand">Một nghìn</string>
+    <string name="twothousand">Hai nghìn</string>
+    <string name="threethousand">Ba nghìn</string>
+    <string name="fourthousand">Bốn nghìn</string>
+    <string name="fivethousand">Năm nghìn</string>
+    <string name="sixthousand">Sáu nghìn</string>
+    <string name="seventhousand">Bảy nghìn</string>
+    <string name="eightthousand">Tám nghìn</string>
+    <string name="ninethousand">Chín nghìn</string>
+    <string name="tenthousand">Mười nghìn</string>
+    <string name="hundredthousand">Một trăm nghìn</string>
+    <string name="onemillion">Một triệu</string>
+    <string name="onebillion">Một tỷ</string>
 
     <string name="monday">Thứ hai</string>
     <string name="tuesday">Thứ ba</string>
@@ -76,18 +209,6 @@
     <string name="notification_channel_desc">my channel is the best because I wrote it</string>
 
     <string name="dia1">Hội thoại 1</string>
-    <string name="year">Năm</string>
-    <string name="time">Thời gian</string>
-    <string name="man">Người</string>
-    <string name="hand">Tay</string>
-    <string name="big">Lớn</string>
-    <string name="samll">Nhỏ</string>
-    <string name="good">Tốt</string>
-    <string name="beautifu">Đẹp</string>
-    <string name="tobe">Có</string>
-    <string name="tosay">Nói</string>
-    <string name="beable">Có thể</string>
-    <string name="say">nói, kể</string>
     <string name="dia2">Hội thoại 2</string>
     <string name="dia3">Hội thoại 3</string>
     <string name="dia4">Hội thoại 4</string>
@@ -127,109 +248,246 @@
     <string name="Notification_text">Thực hiện phiên tiếp theo của bạn!</string>
     <string name="main_channel_id">mainChannelId</string>
 
-    <string name="grammer">Ngữu pháp</string>
-    <string name="present">Thì hiện tại</string>
-    <string name="future">Thì tương lai</string>
-    <string name="past">Thì quá khứ</string>
-    <string name="personal">Đại từ nhân xưng</string>
+    <!-- Vietnamese Strings -->
+    <string name="z_nat">biết</string>
+    <string name="z_naty">tôi biết</string>
+    <string name="z_natyu">bạn biết (số ít, không trang trọng)</string>
+    <string name="z_natye">anh ấy/cô ấy biết</string>
+    <string name="z_natw">chúng tôi biết</string>
+    <string name="z_natypl">các bạn biết (số nhiều, không trang trọng)/bạn biết (trang trọng)</string>
+    <string name="z_natt">họ biết</string>
 
-    <string name="intro">Điều đáng nói là thì Hiện tại trong tiếng Nga tương đương với Hiện tại đơn, Hiện tại tiếp diễn, Hiện tại hoàn thành tiếp diễn trong tiếng Anh. \N
-     ví dụ:\n
-         Hiện tại đơn: Tôi sống ở Moscow. \N
-         – Я живу в Москве \n
-         Hiện tại tiếp diễn: Tôi sẽ đến Moscow. \N
-         – Я еду в Москву. \N
-         Hiện tại hoàn thành tiếp diễn: Tôi đã sống ở Moscow được 10 năm rồi. \N
-         – Я живу в Москве уже 10 năm. \N
+    <string name="z_zhit">sống</string>
+    <string name="z_zhity">tôi sống</string>
+    <string name="z_zhitu">bạn sống (số ít, không trang trọng)</string>
+    <string name="z_zhite">anh ấy/cô ấy sống</string>
+    <string name="z_zhitw">chúng tôi sống</string>
+    <string name="z_zhitpl">các bạn sống (số nhiều, không trang trọng)/bạn sống (trang trọng)</string>
+    <string name="z_zhitt">họ sống</string>
 
-    </string>
-    <string name="conjugation">liên hợp</string>
-    <string name="futurelession">Rất đơn giản, thì tương lai trong tiếng Nga tương ứng với những điều xảy ra trong tương lai. \N
-         Giống như tiếng Anh, tiếng Nga không có thì tương lai thực sự, thay vào đó, thì tương lai được hình thành bằng cách sử dụng các cấu trúc ngữ pháp liên quan đến trợ từ và động từ ở thì hiện tại (thì hiện tại: tôi đang chạy, thì tương lai: tôi sẽ chạy). \N
-         Trong tiếng Nga để hình thành thì tương lai, bạn có thể sử dụng động từ ở thể hoàn thành và chia động từ ở hiện tại. \N
-         \N
-         Ví dụ: "Я делаю (cách chia thì hiện tại của động từ không hoàn thành" đề cập đến thời điểm hiện tại ("Tôi làm/Tôi đang làm"), trong khi "Я сделаю (cách chia thì hiện tại của động từ hoàn thành)" đề cập đến một thời điểm trong tương lai ("Tôi sẽ làm"). \n
-         Hoặc bạn sử dụng trợ động từ "быть" được chia ở hiện tại cùng với động từ nguyên thể của động từ khiếm khuyết "Я буду делать (cách chia ở thì hiện tại của động từ "быть")" ("Tôi sẽ làm")</string>
-    <string name="pastlession">So, how do we form the past tense? Let’s take the verb “говорить” (govorit’ – to talk) as an example. “Говорить” (govorit’) is the infinitive form. To form the past tense, we change the ending “–ть” into the suffix “–л”:
+    <string name="z_lovet">yêu/thích</string>
+    <string name="z_lovety">tôi yêu/thích</string>
+    <string name="z_lovetu">bạn yêu/thích (số ít, không trang trọng)</string>
+    <string name="z_lovete">anh ấy/cô ấy yêu/thích</string>
+    <string name="z_lovetw">chúng tôi yêu/thích</string>
+    <string name="z_lovetpl">các bạn yêu/thích (số nhiều, không trang trọng)/bạn yêu/thích (trang trọng)</string>
+    <string name="z_lovett">họ yêu/thích</string>
 
-говорить (govorit’) – говорил (govoril)
+    <string name="z_work">làm việc</string>
+    <string name="z_worky">tôi làm việc</string>
+    <string name="z_worku">bạn làm việc (số ít, không trang trọng)</string>
+    <string name="z_worke">anh ấy/cô ấy làm việc</string>
+    <string name="z_workw">chúng tôi làm việc</string>
+    <string name="z_workpl">các bạn làm việc (số nhiều, không trang trọng)/bạn làm việc (trang trọng)</string>
+    <string name="z_workt">họ làm việc</string>
 
-You do the same thing with all verbs to create the past tense:
+    <!-- Vietnamese Strings -->
+    <string name="z_wait">chờ</string>
+    <string name="z_waity">tôi chờ</string>
+    <string name="z_waitu">bạn chờ (số ít, không trang trọng)</string>
+    <string name="z_waite">anh ấy/cô ấy chờ</string>
+    <string name="z_waitw">chúng tôi chờ</string>
+    <string name="z_waitpl">các bạn chờ (số nhiều, không trang trọng)/bạn chờ (trang trọng)</string>
+    <string name="z_waitt">họ chờ</string>
 
-читать (chitat’) – читал (chital) – to read
+    <string name="z_speak">nói</string>
+    <string name="z_speaky">tôi nói</string>
+    <string name="z_speaku">bạn (số ít, không trang trọng) nói</string>
+    <string name="z_speake">anh ấy/cô ấy nói</string>
+    <string name="z_speakw">chúng tôi nói</string>
+    <string name="z_speakpl">các bạn (số nhiều, không trang trọng)/ngài (trang trọng) nói</string>
+    <string name="z_speakt">họ nói</string>
 
-плакать (plakat’) – плакал (plakal) – to cry
+    <string name="z_think">nghĩ</string>
+    <string name="z_thinky">tôi nghĩ</string>
+    <string name="z_thinku">bạn (số ít, không trang trọng) nghĩ</string>
+    <string name="z_thinke">anh ấy/cô ấy nghĩ</string>
+    <string name="z_thinkw">chúng tôi nghĩ</string>
+    <string name="z_thinkpl">các bạn (số nhiều, không trang trọng)/ngài (trang trọng) nghĩ</string>
+    <string name="z_thinkt">họ nghĩ</string>
 
-сомневаться (somnevat’sya) – сомневался (somnevalsya) – to doubt
+    <string name="z_understand">hiểu</string>
+    <string name="z_understandy">tôi hiểu</string>
+    <string name="z_understandu">bạn (số ít, không trang trọng) hiểu</string>
+    <string name="z_understande">anh ấy/cô ấy hiểu</string>
+    <string name="z_understandw">chúng tôi hiểu</string>
+    <string name="z_understandpl">các bạn (số nhiều, không trang trọng)/ngài (trang trọng) hiểu</string>
+    <string name="z_understandt">họ hiểu</string>
+
+    <string name="z_can">có thể</string>
+    <string name="z_cany">tôi có thể</string>
+    <string name="z_canu">bạn (số ít, không trang trọng) có thể</string>
+    <string name="z_cane">anh ấy/cô ấy có thể</string>
+    <string name="z_canw">chúng tôi có thể</string>
+    <string name="z_canpl">các bạn (số nhiều, không trang trọng)/ngài (trang trọng) có thể</string>
+    <string name="z_cant">họ có thể</string>
+
+    <string name="z_want">muốn</string>
+    <string name="z_wanty">tôi muốn</string>
+    <string name="z_wantu">bạn (số ít, không trang trọng) muốn</string>
+    <string name="z_wante">anh ấy/cô ấy muốn</string>
+    <string name="z_wantw">chúng tôi muốn</string>
+    <string name="z_wantpl">các bạn (số nhiều, không trang trọng)/ngài (trang trọng) muốn</string>
+    <string name="z_wantt">họ muốn</string>
+
+    <string name="z_do">làm</string>
+    <string name="z_doy">tôi làm</string>
+    <string name="z_dou">bạn (số ít, không trang trọng) làm</string>
+    <string name="z_doe">anh ấy/cô ấy làm</string>
+    <string name="z_dow">chúng tôi làm</string>
+    <string name="z_dopl">các bạn (số nhiều, không trang trọng)/ngài (trang trọng) làm</string>
+    <string name="z_dot">họ làm</string>
+
+    <string name="z_take">lấy</string>
+    <string name="z_takey">tôi lấy</string>
+    <string name="z_takeu">bạn (số ít, không trang trọng) lấy</string>
+    <string name="z_takee">anh ấy/cô ấy lấy</string>
+    <string name="z_takew">chúng tôi lấy</string>
+    <string name="z_takepl">các bạn (số nhiều, không trang trọng)/ngài (trang trọng) lấy</string>
+    <string name="z_taket">họ lấy</string>
+
+    <string name="z_give">đưa</string>
+    <string name="z_givey">tôi đưa</string>
+    <string name="z_giveu">bạn (số ít, không trang trọng) đưa</string>
+    <string name="z_givee">anh ấy/cô ấy đưa</string>
+    <string name="z_givew">chúng tôi đưa</string>
+    <string name="z_givepl">các bạn (số nhiều, không trang trọng)/ngài (trang trọng) đưa</string>
+    <string name="z_givet">họ đưa</string>
+
+    <string name="z_remember">nhớ</string>
+    <string name="z_remembery">tôi nhớ</string>
+    <string name="z_rememberu">bạn (số ít, không trang trọng) nhớ</string>
+    <string name="z_remembere">anh ấy/cô ấy nhớ</string>
+    <string name="z_rememberw">chúng tôi nhớ</string>
+    <string name="z_rememberpl">các bạn (số nhiều, không trang trọng)/ngài (trang trọng) nhớ</string>
+    <string name="z_remembert">họ nhớ</string>
 
 
-Russian verbs change their endings depending on the gender of the subject they refer to.
+    <string name="adj_size">Mô tả Vẻ bề ngoài, Kích thước và Trọng lượng</string>
+    <!-- Mô tả Vẻ bề ngoài, Kích thước và Trọng lượng -->
+    <string name="small">nhỏ; bé</string>
+    <string name="big">to; lớn</string>
+    <string name="huge">khổng lồ</string>
+    <string name="tall_high">cao</string>
+    <string name="low_short">thấp; ngắn</string>
+    <string name="new_adj">mới</string>
+    <string name="full">đầy</string>
+    <string name="empty">trống</string>
+    <string name="heavy">nặng</string>
+    <string name="light_easy">nhẹ; dễ</string>
+    <string name="long_adj">dài</string>
+    <string name="short_adj">ngắn</string>
+    <string name="wide_broad">rộng</string>
+    <string name="narrow_tight">hẹp; chặt</string>
+    <string name="clean">sạch</string>
+    <string name="dirty">bẩn</string>
+    <string name="thin">mỏng</string>
 
-Он читал книгу. (Ya chital.) – He read a book.
+    <!-- Tính từ tiếng Nga mô tả người -->
+    <string name="adj_describe">Tính từ tiếng Nga mô tả người</string>
+    <string name="young">trẻ</string>
+    <string name="old">già</string>
+    <string name="strong">mạnh mẽ</string>
+    <string name="weak">yếu</string>
+    <string name="scary">đáng sợ</string>
+    <string name="beautiful">đẹp; ưa nhìn; xinh đẹp</string>
+    <string name="splendid">tuyệt vời; tốt; đẹp</string>
+    <string name="cute">dễ thương; đáng yêu</string>
+    <string name="skinny">gầy</string>
+    <string name="fat">béo</string>
+    <string name="rich">giàu</string>
+    <string name="poor">nghèo</string>
+    <string name="ill">bệnh; đau</string>
+    <string name="healthy">khỏe mạnh</string>
+    <string name="older">lớn tuổi hơn</string>
+    <string name="younger">nhỏ tuổi hơn</string>
+    <string name="kids">trẻ con</string>
+    <string name="adult">người lớn</string>
 
-Она читала газету. (Ona chitala.) – She read a newspaper.
+    <!-- Mô tả tính cách và cảm xúc -->
+    <string name="adj_fellings">Mô tả tính cách và cảm xúc</string>
+    <string name="kind">tốt bụng</string>
+    <string name="angry">tức giận</string>
+    <string name="loyal">trung thành</string>
+    <string name="confident">tự tin</string>
+    <string name="serious">nghiêm túc</string>
+    <string name="happy">vui vẻ</string>
+    <string name="dangerous">nguy hiểm</string>
+    <string name="funny">hài hước</string>
+    <string name="boring">nhàm chán</string>
 
-Оно читало мои мысли. (Ono chitalo moi mysli.) – It read my thoughts.
+    <!-- Mô tả màu sắc -->
+    <string name="adj_colors">Mô tả màu sắc</string>
+    <string name="white">trắng</string>
+    <string name="red">đỏ</string>
+    <string name="black">đen</string>
+    <string name="green">xanh lá</string>
+    <string name="yellow">vàng</string>
+    <string name="intense_blue">xanh dương đậm</string>
+    <string name="light_blue">xanh dương nhạt</string>
+    <string name="gray">xám</string>
+    <string name="dark">tối</string>
+    <string name="light_bright">sáng; rực rỡ</string>
 
-Они читали объявление. (Oni chitali ob’yavlenie.) – They read an announcement.
+    <!-- Đánh giá sự vật -->
+    <string name="adj_evaluating">Đánh giá sự vật</string>
+    <string name="important">quan trọng</string>
+    <string name="good">tốt</string>
+    <string name="bad">xấu</string>
+    <string name="favorite">yêu thích</string>
+    <string name="real_true">thật; đúng</string>
+    <string name="necessary">cần thiết</string>
+    <string name="famous">nổi tiếng</string>
+    <string name="known_familiar">quen thuộc</string>
+    <string name="similar">tương tự</string>
+    <string name="next">kế tiếp</string>
+    <string name="personal">cá nhân</string>
+    <string name="simple">đơn giản; dễ</string>
+    <string name="complicated">phức tạp; khó</string>
+    <string name="only">duy nhất</string>
+    <string name="last_latest">cuối cùng; mới nhất</string>
+    <string name="best">tốt nhất</string>
+    <string name="primary_basic">cơ bản; đầu tiên</string>
+    <string name="main_chief">chính; chủ yếu</string>
+    <string name="ex_last">cựu; trước</string>
+    <string name="special">đặc biệt</string>
+    <string name="usual">thông thường</string>
+    <string name="late">muộn</string>
+    <string name="early">sớm</string>
 
-As you can see, if the pronoun is masculine, there is no ending. If it’s feminine, the ending is “–а” (а), and when it’s neutral, the ending is “–о” (o). For the plural, the ending is –и (i).
+    <!-- Mô tả vị giác và nhiệt độ -->
+    <string name="adj_tastes">Mô tả vị giác và nhiệt độ</string>
+    <string name="spicy">cay</string>
+    <string name="salty">mặn</string>
+    <string name="sweet">ngọt</string>
+    <string name="sour">chua</string>
+    <string name="cold">lạnh</string>
+    <string name="warm">ấm áp</string>
+    <string name="hot">nóng</string>
+    <string name="air_hot">nóng (nhiệt độ không khí)</string>
 
+    <!-- Mô tả địa điểm -->
+    <string name="adj_places">Mô tả địa điểm</string>
+    <string name="long_trip">dài</string>
+    <string name="fast">nhanh</string>
+    <string name="slow">chậm</string>
+    <string name="deep">sâu</string>
+    <string name="moscow">của Moscow</string>
+    <string name="russian">Nga</string>
+    <string name="federation_russian">của Liên bang Nga</string>
+    <string name="military">quân đội</string>
+    <string name="local">địa phương</string>
+    <string name="working">đang làm việc</string>
 
-If the verb is reflexive, when the action is directed to the subject, for example, “I wash myself,” you also change “–ть” to “–л,” but keep the reflexive ending “–ся.”
+    <!-- Mô tả hình dạng và chất liệu -->
+    <string name="adj_shapes">Mô tả hình dạng và chất liệu</string>
+    <string name="soft">mềm</string>
+    <string name="hard">cứng; chắc</string>
+    <string name="round">tròn</string>
+    <string name="square">vuông</string>
+    <string name="smooth">mịn</string>
+    <string name="golden">vàng; làm bằng vàng</string>
+    <string name="iron">sắt</string>
 
-Улыбаться (ulybat’sya) – улыбался (ulybalsya) – to smile
-
-Смеяться (smeyat’sya) – смеялся (smeyalsya) – to laugh</string>
-    <string name="personnallession">Cách sử dụng \n
-Đại từ là những từ được dùng thay thế cho danh từ. Họ không đặt tên cho các đối tượng, đặc điểm hoặc số lượng của chúng mà chỉ đề cập đến chúng. Có chín loại đại từ trong tiếng Nga.
-
-Chúng ta hãy xem các đại từ nhân xưng của Nga. \N
-я (tôi) \n
-мы (chúng tôi) \n
-ты (bạn - số ít; ngươi*) \n
-вы (bạn - số nhiều) \n
-он (anh ấy) \n
-онá (cô ấy) \n
-онó (nó) \n
-они (họ). \N
-*Trong tiếng Nga, cũng như trong nhiều ngôn ngữ khác, ты (ngươi) thường được sử dụng giữa những người rất thân quen với nhau, hoặc giữa cấp trên với cấp dưới. \N
-  \N
-Người \n
-Như bạn có thể biết, thuật ngữ ngữ pháp ngôi thứ nhất đề cập đến một người nào đó là tác giả của bài tường thuật. Do đó я, мы là đại từ ngôi thứ nhất; họ đề cập đến người nói. \N
-  \N
-Я стал медленно взбираться на холм. \N
-Tôi bắt đầu leo lên đồi một cách chậm rãi. \N
-(я ám chỉ ai đó đang thực sự nói câu này) \n
-  \N
-Ngoài ra, đại từ мы dùng để chỉ những người thực hiện một hành động cùng với người nói. \N
-  \N
-Мы все éли яблоки: и я, и Миша, и Толя, и Дима. \N
-Tất cả chúng tôi đang ăn táo: tôi, Misha, Tolya và Dima. \N
-(мы đề cập đến tất cả những người đang thực hiện một hành động) \n
-  \N
-Người thứ hai mô tả một người nào đó đã được giải quyết bằng cách nói. Nói cách khác, đó là người mà bạn đang nói chuyện. Do đó ты, вы là đại từ ngôi thứ hai; họ đề cập đến một hoặc nhiều người. \N
-  \N
-Vì vậy, ты тáк хорошó поёшь. \N
-Lena, bạn hát hay quá. \N
-(ты thay thế cho Lena, người được xưng hô) \n
-  \N
-Bạn có biết bạn đang ở đâu không? \N
-Khi nào bạn sẽ đi đến bãi biển? \N
-(вы thay thế cho những người được giải quyết) \n
-  \N
-Đại từ ngôi thứ ba он, она, оно, они chỉ người hoặc vật đang được nói đến. \N
-  \N
-Он заинтересовáлся игрóй. \N
-Anh bắt đầu quan tâm đến trò chơi. \N
-
-Онá былá единственным ребёнком в семьé. \N
-Cô ấy là con một trong gia đình \n
-  \N
-Они встáли и поздорóвались. \N
-Họ đứng dậy chào.</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>

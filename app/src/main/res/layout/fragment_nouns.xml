@@ -11,6 +11,7 @@
         android:layout_width="34dp"
         android:layout_height="34dp"
         android:layout_marginTop="16dp"
+        android:layout_marginStart="9dp"
         android:background="@drawable/arrowbackbutton"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -35,16 +36,13 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
 
+    <!-- RecyclerView để hiển thị danh sách các danh mục -->
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rv_words"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        tools:listitem="@layout/item_word"
-        tools:itemCount="10"
+        android:id="@+id/recyclerViewCategories"
         android:layout_marginTop="50dp"
-        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
-
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:scrollbars="vertical"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
 </androidx.constraintlayout.widget.ConstraintLayout>

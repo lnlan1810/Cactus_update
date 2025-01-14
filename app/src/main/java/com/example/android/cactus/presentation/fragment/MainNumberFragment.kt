@@ -25,13 +25,14 @@ class MainNumberFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         _binding = FragmentMainNumberBinding.bind(view)
 
+        val numberList = NumberRepository.numbers(requireContext())
 
-        val numberInfoFragment = NumberInfoFragment.newInstance(NumberRepository.numbers[0].id)
+        val numberInfoFragment = NumberInfoFragment.newInstance(numberList[0].id)
         childFragmentManager.beginTransaction()
             .replace(R.id.left_fragment_container, numberInfoFragment)
             .commit()
 
-        val numberFragment = NumberFragment.newInstance(NumberRepository.numbers[0].id)
+        val numberFragment = NumberFragment.newInstance(numberList[0].id)
         childFragmentManager.beginTransaction()
             .replace(R.id.right_fragment_container, numberFragment)
             .commit()

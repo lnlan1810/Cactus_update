@@ -30,12 +30,16 @@
         <action
             android:id="@+id/action_homeFragment2_to_converListFragment"
             app:destination="@id/converListFragment" />
-        <action
-            android:id="@+id/action_homeFragment2_to_vocabTopicsFragment"
-            app:destination="@id/vocabTopicsFragment" />
+
         <action
             android:id="@+id/action_homeFragment2_to_mainNumberFragment"
             app:destination="@id/mainNumberFragment" />
+        <action
+            android:id="@+id/action_homeFragment2_to_monthFragment"
+            app:destination="@id/monthFragment" />
+        <action
+            android:id="@+id/action_homeFragment2_to_commonFragment"
+            app:destination="@id/commonFragment" />
 
     </fragment>
     <fragment
@@ -82,10 +86,7 @@
         android:id="@+id/conversationFragment"
         android:name="com.example.android.cactus.presentation.fragment.ConversationFragment"
         android:label="ConversationFragment" />
-    <fragment
-        android:id="@+id/vocabTopicsFragment"
-        android:name="com.example.android.cactus.presentation.fragment.VocabTopicsFragment"
-        android:label="VocabTopicsFragment" />
+
     <fragment
         android:id="@+id/mainNumberFragment"
         android:name="com.example.android.cactus.presentation.fragment.MainNumberFragment"
@@ -94,4 +95,14 @@
             android:id="@+id/action_mainNumberFragment_to_homeFragment2"
             app:destination="@id/homeFragment2" />
     </fragment>
+    <fragment
+        android:id="@+id/monthFragment"
+        android:name="com.example.android.cactus.presentation.fragment.MonthFragment"
+        android:label="fragment_month"
+        tools:layout="@layout/fragment_month" />
+    <fragment
+        android:id="@+id/commonFragment"
+        android:name="com.example.android.cactus.presentation.fragment.CommonFragment"
+        android:label="fragment_common"
+        tools:layout="@layout/fragment_common" />
 </navigation>

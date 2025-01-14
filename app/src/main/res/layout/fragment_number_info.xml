@@ -8,9 +8,10 @@
 
     <Button
         android:id="@+id/buttonback"
-        android:layout_width="34dp"
-        android:layout_height="34dp"
-        android:layout_marginTop="16dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginStart="24dp"
         android:background="@drawable/arrowbackbutton"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -37,10 +38,10 @@
         android:id="@+id/tv_num"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="64dp"
+        android:layout_marginStart="34dp"
         android:fontFamily="@font/berlinsans"
         android:text="0"
-        android:textSize="45dp"
+        android:textSize="40dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -50,11 +51,11 @@
         android:id="@+id/tv_numtext"
         android:layout_width="wrap_content"
         android:layout_height="28dp"
-        android:layout_marginStart="64dp"
+        android:layout_marginStart="34dp"
         android:layout_marginTop="25dp"
         android:fontFamily="@font/berlinlight"
         android:text="hi"
-        android:textSize="27sp"
+        android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_num"
@@ -64,8 +65,8 @@
         android:id="@+id/bt_sound"
         android:layout_width="34dp"
         android:layout_height="34dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="24dp"
         android:elevation="5dp"
         android:src="@drawable/ic_baseline_volume_up_24"
         app:layout_constraintStart_toEndOf="@+id/tv_numtext"
@@ -75,7 +76,7 @@
         android:id="@+id/tv_numtr"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="56dp"
+        android:layout_marginStart="34dp"
         android:layout_marginTop="20dp"
         android:fontFamily="@font/berlinlight"
         android:text="hhiiiiiii"
@@ -94,7 +95,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        android:layout_marginLeft="50dp"
+        android:layout_marginStart="34dp"
+
         app:layout_constraintTop_toBottomOf="@+id/tv_numtr"
         app:layout_constraintVertical_bias="0.145">
 
@@ -103,9 +105,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:src="@drawable/backgroundgreen"
             android:adjustViewBounds="true"
-            android:scaleType="fitStart" />
+            android:scaleType="fitStart"
+            android:src="@drawable/backgroundgreen" />
 
     </LinearLayout>
 

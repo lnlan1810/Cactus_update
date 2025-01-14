@@ -10,30 +10,8 @@ object AdjRepository {
     val commonWords = arrayListOf(
         CommonWord(
             id++, "большой",
-            R.string.big,"Мне не нравятся большие настольные лампы.", R.drawable.big, R.raw.eight),
-        CommonWord(id++, "маленький", R.string.samll, "маленький цыпленок", R.drawable.small , R.raw.eight),
-        CommonWord(id++, "хороший", R.string.good,"хорошо для тела", R.drawable.good , R.raw.sat),
-        CommonWord(id++, "красивый", R.string.beautifu, "красивая актриса", R.drawable.beautiful , R.raw.sat),
+            R.string.eight,"Мне не нравятся большие настольные лампы.", R.drawable.big, R.raw.eight),
 
-        CommonWord(
-            id++, "большой",
-            R.string.big,"Мне не нравятся большие настольные лампы.", R.drawable.big, R.raw.eight),
-        CommonWord(id++, "маленький", R.string.samll, "маленький цыпленок", R.drawable.small , R.raw.eight),
-        CommonWord(id++, "хороший", R.string.good,"хорошо для тела", R.drawable.good , R.raw.sat),
-        CommonWord(id++, "красивый", R.string.beautifu, "красивая актриса", R.drawable.beautiful , R.raw.sat),
 
-        CommonWord(
-            id++, "большой",
-            R.string.big,"Мне не нравятся большие настольные лампы.", R.drawable.big, R.raw.eight),
-        CommonWord(id++, "маленький", R.string.samll, "маленький цыпленок", R.drawable.small , R.raw.eight),
-        CommonWord(id++, "хороший", R.string.good,"хорошо для тела", R.drawable.good , R.raw.sat),
-        CommonWord(id++, "красивый", R.string.beautifu, "красивая актриса", R.drawable.beautiful , R.raw.sat),
-
-        CommonWord(
-            id++, "большой",
-            R.string.big,"Мне не нравятся большие настольные лампы.", R.drawable.big, R.raw.eight),
-        CommonWord(id++, "маленький", R.string.samll, "маленький цыпленок", R.drawable.small , R.raw.eight),
-        CommonWord(id++, "хороший", R.string.good,"хорошо для тела", R.drawable.good , R.raw.sat),
-        CommonWord(id++, "красивый", R.string.beautifu, "красивая актриса", R.drawable.beautiful , R.raw.sat),
     )
 }

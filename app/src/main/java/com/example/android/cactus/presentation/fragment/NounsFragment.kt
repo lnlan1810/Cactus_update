@@ -1,3 +1,4 @@
+/*
 package com.example.android.cactus.presentation.fragment
 
 import android.os.Bundle
@@ -40,4 +41,4 @@ class NounsFragment : Fragment(R.layout.fragment_nouns) {
 
         wordAdapter!!.submitList(wordList)
     }
-}
+}*/

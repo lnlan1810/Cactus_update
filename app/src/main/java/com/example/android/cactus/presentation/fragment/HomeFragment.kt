@@ -52,6 +52,11 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
                     epicDialog!!.dismiss()
                 }
 
+                dialogBinding.buttonMonth.setOnClickListener {
+                    findNavController().navigate(R.id.action_homeFragment2_to_monthFragment)
+                    epicDialog!!.dismiss()
+                }
+
                 dialogBinding.buttonXlearn.setOnClickListener {
                     epicDialog!!.dismiss()
                 }
@@ -68,7 +73,7 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
 
                 dialogBinding.buttonNouns.setOnClickListener {
                     findNavController().navigate(
-                        R.id.action_homeFragment2_to_nounsFragment2,
+                        R.id.action_homeFragment2_to_commonFragment,
                     )
                     epicDialog!!.dismiss()
 
@@ -142,13 +147,6 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
             }
         }
 
-        with(binding) {
-            ivTopic.setOnClickListener {
-                findNavController().navigate(
-                    R.id.action_homeFragment2_to_vocabTopicsFragment,
-                )
-            }
-        }
     }
 
     override fun onDestroyView() {
