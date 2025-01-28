@@ -13,7 +13,6 @@ import com.example.android.cactus.databinding.FragmentAdjBinding
 import com.example.android.cactus.domain.model.Vocabulary
 import com.example.android.cactus.domain.model.VocabularyCategory
 import com.example.android.cactus.domain.repository.AdjRepository
-import com.example.android.cactus.domain.repository.WordRepository
 import com.example.android.cactus.presentation.adapter.VocabularyCategoryAdapter
 import com.example.android.cactus.presentation.adapter.WordAdapter
 

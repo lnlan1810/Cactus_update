@@ -10,37 +10,29 @@ import com.example.android.cactus.R
 import com.example.android.cactus.databinding.ActivityMainBinding
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import dagger.hilt.android.AndroidEntryPoint
-
 @AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
     private var binding: ActivityMainBinding? = null
 
-    private var controller: NavController? = null
+    private lateinit var navController: NavController
 
     override fun onCreate(savedInstanceState: Bundle?) {
-
         super.onCreate(savedInstanceState)
+
+        // Inflate layout
         binding = ActivityMainBinding.inflate(layoutInflater).also {
             setContentView(it.root)
         }
 
-        controller = findController(R.id.fragment)
+        // Find NavController from NavHostFragment
+        val navHostFragment = supportFragmentManager.findFragmentById(R.id.fragment) as NavHostFragment
+        navController = navHostFragment.navController
 
-        if (savedInstanceState != null) {
-            return
-        }
-        //setContentView(R.layout.activity_main)
-        controller =
-            (supportFragmentManager.findFragmentById(R.id.fragment) as NavHostFragment).navController
-
-        val bottomView = binding!!.bottomNavigationView
-        bottomView.setupWithNavController(controller!!)
-
-        supportFragmentManager.beginTransaction()
+        // Setup BottomNavigationView with NavController
+        binding?.bottomNavigationView?.setupWithNavController(navController)
     }
 
     override fun onSupportNavigateUp(): Boolean {
-        val controller = findNavController(R.id.fragment)
-        return controller.navigateUp() || super.onSupportNavigateUp()
+        return navController.navigateUp() || super.onSupportNavigateUp()
     }
 }

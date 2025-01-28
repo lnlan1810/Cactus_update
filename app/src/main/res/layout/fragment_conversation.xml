@@ -42,8 +42,10 @@
         android:id="@+id/scroll"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_above="@+id/control"
         android:layout_below="@id/header"
-        android:layout_marginTop="16dp">
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="30dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -56,22 +58,21 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-medium"
+                android:paddingBottom="8dp"
                 android:text="Tên bài hát"
                 android:textAlignment="center"
                 android:textColor="@color/black"
-                android:textSize="24sp"
-                android:paddingBottom="8dp" />
+                android:textSize="24sp" />
 
             <TextView
                 android:id="@+id/tv_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-medium"
-                android:text="Lời bài hát"
-                android:textSize="20sp"
+                android:layout_margin="16dp"
                 android:paddingStart="20dp"
                 android:paddingEnd="20dp"
-                android:layout_margin="16dp" />
+                android:text="Lời bài hát"
+                android:textSize="20sp" />
         </LinearLayout>
     </ScrollView>
 
@@ -82,56 +83,75 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="35dp"
-        android:padding="16dp">
+        android:paddingTop="19dp"
+        android:paddingBottom="19dp">
 
         <!-- Nút chuyển chế độ lặp lại/ ngẫu nhiên -->
-        <ImageButton
-            android:id="@+id/ib_repeat_shuffle"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:backgroundTint="@color/app_main_color"
-            android:background="@drawable/baseline_repeat_24"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent"
-            android:layout_marginStart="16dp" />
 
         <!-- Nút quay lại bài hát -->
-        <ImageButton
-            android:id="@+id/ib_prev"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:backgroundTint="@color/app_main_color"
-            android:background="@drawable/ic_baseline_skip_previous_24"
-            app:layout_constraintStart_toEndOf="@id/ib_repeat_shuffle"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent"
-            android:layout_marginStart="16dp" />
 
         <!-- Nút chơi/dừng bài hát (nằm ở giữa) -->
-        <ImageButton
-            android:id="@+id/ib_pause_play"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:backgroundTint="@color/app_main_color"
-            android:background="@drawable/ic_baseline_pause_24"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.5" />
 
-        <!-- Nút bài hát tiếp theo -->
         <ImageButton
-            android:id="@+id/ib_next"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:backgroundTint="@color/app_main_color"
-            android:background="@drawable/ic_baseline_skip_next_24"
-            app:layout_constraintStart_toEndOf="@id/ib_pause_play"
-            app:layout_constraintTop_toTopOf="parent"
+            android:id="@+id/repeatButton"
+            android:layout_width="36dp"
+            android:layout_height="45dp"
+            android:background="?attr/roundSelector"
+            android:padding="16dp"
+            app:layout_constraintBottom_toBottomOf="@+id/ibPrev"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/ibPrev"
+            app:layout_constraintVertical_bias="0.526"
+            app:srcCompat="@drawable/ic_repeat"
+            tools:ignore="MissingPrefix"
+            tools:tint="@color/black" />
+
+        <ImageButton
+            android:id="@+id/ibPrev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?attr/roundSelector"
+            android:padding="16dp"
+            app:layout_constraintBottom_toBottomOf="@+id/ibPausePlay"
+            app:layout_constraintEnd_toStartOf="@+id/ibPausePlay"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/ibPausePlay"
+            app:srcCompat="@drawable/ic_skip_previous"
+            tools:ignore="MissingPrefix"
+            tools:tint="@color/black" />
+
+        <ImageButton
+            android:id="@+id/ibPausePlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?attr/roundSelector"
+            android:padding="16dp"
+            android:visibility="visible"
             app:layout_constraintBottom_toBottomOf="parent"
-            android:layout_marginStart="16dp" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:srcCompat="@drawable/ic_play_arrow_white_32dp"
+            tools:tint="@color/black" />
+
+        <ImageButton
+            android:id="@+id/ibNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?attr/roundSelector"
+            android:padding="16dp"
+            app:layout_constraintBottom_toBottomOf="@+id/ibPausePlay"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/ibPausePlay"
+            app:layout_constraintTop_toTopOf="@+id/ibPausePlay"
+            app:srcCompat="@drawable/ic_skip_next"
+            tools:ignore="MissingPrefix"
+            tools:tint="@color/black" />
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

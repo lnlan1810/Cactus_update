@@ -7,7 +7,7 @@ import android.content.Intent
 import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
 import com.example.android.cactus.R
-import com.example.android.cactus.presentation.ui.category.VocabularyNotebookFragment
+import com.example.android.cactus.presentation.fragment.VocabularyNotebookFragment
 
 class MemoBroadcast : BroadcastReceiver() {
     override fun onReceive(context: Context, intent: Intent?) {
@@ -31,14 +31,14 @@ class MemoBroadcast : BroadcastReceiver() {
             NotificationCompat.Builder(context, context.getString(R.string.main_channel_id))
                 .setContentTitle(context.getString(R.string.Notification_title))
                 .setContentText(context.getString(R.string.Notification_text))
-                .setSmallIcon(R.drawable.ic_baseline_sentiment_very_satisfied_24)
+                .setSmallIcon(R.drawable.happy)
                 .setPriority(NotificationCompat.PRIORITY_HIGH)
                 .setContentIntent(pendingIntent)
                 .setAutoCancel(true)
 
         val notificationManager = NotificationManagerCompat.from(context)
 
-        notificationManager.notify(NOTIFICATION_ID, builder.build())
+       // notificationManager.notify(NOTIFICATION_ID, builder.build())
     }
 
     private fun createNotification() {

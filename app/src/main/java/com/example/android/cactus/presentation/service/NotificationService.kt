@@ -89,7 +89,7 @@ class NotificationService(
 
         val pendingIntent = NavDeepLinkBuilder(context)
             .setComponentName(MainActivity::class.java)
-            .setGraph(R.navigation.my_nav)
+            .setGraph(R.navigation.nested)
             .setDestination(R.id.conversationFragment)
             .setArguments(bundle)
             .createPendingIntent()

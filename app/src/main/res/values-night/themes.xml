@@ -5,6 +5,7 @@
         <item name="colorPrimary">#B5B5B5</item>
         <item name="colorPrimaryVariant">#FFC107</item>
         <item name="colorOnPrimary">@color/green</item>
+        <item name="roundSelector">@drawable/round_selector</item>
 
         <!-- Secondary brand color. -->
         <item name="colorSecondary">#9C27B0</item>
@@ -26,4 +27,5 @@
     <style name="RobotoButtonStyle" parent="android:Widget.Holo.Button">
         <item name="android:fontFamily">@font/roboto</item>
     </style>
+
 </resources>

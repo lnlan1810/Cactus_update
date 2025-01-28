@@ -489,5 +489,14 @@
     <string name="golden">vàng; làm bằng vàng</string>
     <string name="iron">sắt</string>
 
+    <string name="add_word">Thêm Từ</string>
+    <string name="add_Russ">Từ Tiếng Nga</string>
+    <string name="add_enter_Russ">Nhập từ tiếng Nga</string>
+    <string name="word_tras">Nghĩa Của Từ Trên</string>
+    <string name="word_enter_tras">Nhập nghĩa của từ trên</string>
+
+    <string name="words">Danh sách từ mới</string>
+    <string name="enter_to_tran">Nhập từ cần dịch</string>
+    <string name="trans">Dịch</string>
 
 </resources>
