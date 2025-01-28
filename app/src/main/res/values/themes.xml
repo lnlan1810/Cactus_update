@@ -6,6 +6,7 @@
         <item name="colorPrimary">#4D8E4F</item>
         <item name="colorPrimaryVariant">#00C51A</item>
         <item name="colorOnPrimary">@color/app_background_color</item>
+        <item name="roundSelector">@drawable/round_selector</item>
 
         <!-- Secondary brand color. -->
         <item name="colorSecondary">#14C500</item>

@@ -89,6 +89,8 @@ class LearnViewModel(
         }
 
         _itemPosCounter++
+        getCurrentWord() // Cập nhật từ mới
+
     }
 
     fun onNoClicked() {
@@ -99,6 +101,8 @@ class LearnViewModel(
         }
 
         _itemPosCounter++
+        getCurrentWord() // Cập nhật từ mới
+
     }
 
     fun showSessionCompleteDone() {

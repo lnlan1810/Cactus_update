@@ -58,7 +58,7 @@
         android:label="DayFragment" />
     <fragment
         android:id="@+id/nounsFragment2"
-        android:name="com.example.android.cactus.presentation.fragment.NounsFragment"
+        android:name="com.example.android.cactus.presentation.fragment.CommonFragment"
         android:label="NounsFragment" >
 
     </fragment>
@@ -105,4 +105,26 @@
         android:name="com.example.android.cactus.presentation.fragment.CommonFragment"
         android:label="fragment_common"
         tools:layout="@layout/fragment_common" />
+
+    <fragment
+        android:id="@+id/tranlateFragment"
+        android:name="com.example.android.cactus.presentation.fragment.TranlateFragment"
+        android:label="fragment_tranlate"
+        tools:layout="@layout/fragment_tranlate" >
+    </fragment>
+    <fragment
+        android:id="@+id/vocabularyNotebookFragment"
+        android:name="com.example.android.cactus.presentation.fragment.VocabularyNotebookFragment"
+        android:label="VocabularyNotebookFragment" />
+    <fragment
+        android:id="@+id/numberInfoFragment"
+        android:name="com.example.android.cactus.presentation.fragment.NumberInfoFragment"
+        android:label="fragment_number_info"
+        tools:layout="@layout/fragment_number_info" />
+    <fragment
+        android:id="@+id/addWordFragment"
+        android:name="com.example.android.cactus.presentation.fragment.AddWordFragment"
+        android:label="fragment_add_word"
+        tools:layout="@layout/fragment_add_word" />
+
 </navigation>

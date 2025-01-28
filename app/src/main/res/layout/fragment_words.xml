@@ -7,15 +7,17 @@
     android:background="#F6F8FB">
 
     <androidx.appcompat.widget.Toolbar
-        android:id="@+id/words_toolbar"
+        android:id="@+id/wordsToolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/app_background_color"
+        android:layout_marginTop="16dp"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:navigationIcon="@drawable/arrowbackbutton"
+        app:title="@string/words" />
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView3"
@@ -23,7 +25,7 @@
         android:layout_height="161dp"
         android:layout_gravity="top"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="60dp"
         android:layout_marginEnd="16dp"
         app:layout_constraintBottom_toTopOf="@+id/cardView4"
         app:layout_constraintEnd_toEndOf="parent"
@@ -86,7 +88,7 @@
             android:layout_height="107dp"
             android:layout_gravity="center"
             android:layout_marginBottom="30dp"
-            app:srcCompat="@drawable/ic_baseline_add_box_24" />
+            app:srcCompat="@drawable/plus" />
 
         <TextView
             android:id="@+id/words_add_text"

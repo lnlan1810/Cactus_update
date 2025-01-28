@@ -489,4 +489,17 @@
     <string name="golden">golden; gold</string>
     <string name="iron">iron</string>
 
+    <string name="add_word">Add Word</string>
+    <string name="add_Russ">Word in Russian</string>
+    <string name="add_enter_Russ">Enter word in Russian</string>
+    <string name="word_tras">Word in your language</string>
+    <string name="word_enter_tras">Enter word in your language</string>
+
+    <string name="words">Words</string>
+
+    <string name="enter_to_tran">Enter the word to translate</string>
+    <string name="trans">Translate</string>
+
+
+
 </resources>

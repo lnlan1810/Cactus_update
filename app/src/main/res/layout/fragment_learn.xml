@@ -105,7 +105,7 @@
         app:layout_constraintEnd_toEndOf="@+id/learn_card"
         app:layout_constraintStart_toEndOf="@+id/learn_pronunciation"
         app:layout_constraintTop_toBottomOf="@+id/learn_card"
-        app:srcCompat="@drawable/ic_baseline_sentiment_very_satisfied_24"
+        app:srcCompat="@drawable/happy"
         android:contentDescription="@string/yes_button" />
 
     <ImageView
@@ -118,7 +118,7 @@
         app:layout_constraintEnd_toStartOf="@+id/learn_pronunciation"
         app:layout_constraintStart_toStartOf="@+id/learn_card"
         app:layout_constraintTop_toBottomOf="@+id/learn_card"
-        app:srcCompat="@drawable/ic_baseline_sentiment_very_dissatisfied_24"
+        app:srcCompat="@drawable/sad"
         android:contentDescription="@string/no_button" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
