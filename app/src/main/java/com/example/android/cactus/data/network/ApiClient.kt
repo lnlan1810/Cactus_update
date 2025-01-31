@@ -7,7 +7,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 object ApiClient {
     private const val API_URL = "https://translate.api.cloud.yandex.net/translate/"
-    private const val API_KEY = "AQVN3HpbXXvHWCNMRdYpRTtsMPZbOTEjgwZhfRKV"
+    private const val API_KEY = ""
 
     private val client by lazy {
         val logging = HttpLoggingInterceptor()
