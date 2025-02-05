@@ -21,7 +21,7 @@ class TranslateViewModel : ViewModel() {
 
     fun translateWord(input: String, targetLanguage: String) {
         val request = TranslateRequest(
-            folderId = "b1g8dmbb2rv1vrcv62tc",
+            folderId = "",
             texts = listOf(input),
             targetLanguageCode = targetLanguage
         )
